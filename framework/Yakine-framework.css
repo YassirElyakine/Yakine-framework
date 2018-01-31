@@ -128,3 +128,34 @@ body {
     height: 100%;
     opacity: 0.50;
 }
+/* text colors, they're the same as bg-colors but for text */
+.blue {
+    color: #0281CA;
+}
+.purple {
+    color: #451F8F;
+}
+.pink {
+    color: #FFDDFB;
+}
+.red {
+    color: #EE3939;
+}
+.green {
+    color: #8AFCA2;
+}
+.brown {
+    color: #63413D;
+}
+.orange {
+    color: #F58C2F;
+}
+.yellow {
+    color: #FCF079;
+}
+.lightwhite {
+    color: #F7F7F7;
+}
+.lightblack {
+    color: #2E2E2E;
+}
