@@ -1,0 +1,6 @@
+nav_yakine { creates a dead centered navigation bar };
+--------------------------------------------------------
+nav_yakine-right { makes nav_yakine aligned perfectly to the right, note that you should alway use it along with nav_yakine or it will not display in the browser };
+--------------------------------------------------------
+nav_yakine-left { makes nav_yakine aligned perfectly to the left hand side and should be used the same as nav_yakine-right, and never use both of them. };
+--------------------------------------------------------

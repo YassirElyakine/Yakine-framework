@@ -1,0 +1,45 @@
+body {
+    margin-top: 0;
+}
+/* framework fonts */
+@font-face {
+    font-family: basefont;
+    src: url('framework fonts/RobotoSlab-Regular.ttf');
+}
+* {
+    /* makes every element has a box-sizing of border box */
+    box-sizing: border-box;
+}
+/* navigation systems */
+.nav_yakine {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+    padding: 10px;
+}
+.nav_yakine-right {
+    float: right;
+}
+.nav_yakine-left {
+    margin: 0;
+}
+/* navigation items */
+.nav_item {
+    flex-basis: 50%;
+    text-align: center;
+    font-family: basefont;
+    border: 1px solid transparent;
+    background-color: #fff;
+    padding: 10px;
+}
+.item-first {
+    order: 1;
+}
+.item-second {
+    order: 2;
+}
+.item-third {
+    order: 3;
+}
