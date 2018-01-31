@@ -29,3 +29,10 @@ always try to use .item-vertical along with .nav_item so
 
 things will work the way it's supposed to.
 --------------------------------------------------------
+use .image_container to create a container for your image and after that, inside of your .image_container, would be great if you use divs, write a div with a class called .image(that is where the background-image will be set), all you have to do is a simple CSS line of code, go to your CSS file and write the following: .image { background-image: url('your image name or path here'); }.
+we also have a simple image blur feature that makes your image blur based on the .bg-color.
+example: 
+  <div class="image">
+    <div class="img-blur bg-lightblack"></div>
+  </div>
+--------------------------------------------------------
