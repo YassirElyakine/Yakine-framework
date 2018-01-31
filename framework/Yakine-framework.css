@@ -102,6 +102,9 @@ body {
         border-top: 1px solid #F5F5F5;
         border-bottom: 1px solid #F5F5F5;
     }
+    .nav_yakine {
+        width: 100%;
+    }
 }
 /* images containers and with blur features as well */
 .image_container {
