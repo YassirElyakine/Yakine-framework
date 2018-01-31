@@ -1,2 +1,2 @@
 # Yakine-framework
-a css framework to use when you don't have time to create your own CSS styles.
+a frontend framework to use when you don't have time to write your own CSS styles.
