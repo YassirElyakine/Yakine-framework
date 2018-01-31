@@ -106,17 +106,24 @@ body {
         width: 100%;
     }
 }
-/* images containers and with blur features as well */
+/* makes an image container */
 .image_container {
     border: 1px solid transparent;
     padding: 5px;
 }
+/* this is where the image is set as a background */
+/* the background-image height is 500px by default */
 .image {
-    height: 505px;
+    height: 500px;
     background-image: url('animage.jpg');
     background-position: center;
     background-size: cover;
 }
+/* makes the image smaller by 50% */
+.img-small {
+    height: 300px;
+}
+/* a simple image blur effect */
 .img-blur {
     height: 100%;
     opacity: 0.50;
