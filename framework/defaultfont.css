@@ -1,0 +1,7 @@
+@font-face {
+    font-family: Yakine-framework-Raleway;
+    src: url('framework fonts/Raleway-ExtraBold.ttf');
+}
+* {
+    font-family: Yakine-framework-Raleway;
+}
