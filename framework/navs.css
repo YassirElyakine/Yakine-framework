@@ -19,9 +19,11 @@ body {
     margin: 0 auto;
     padding: 10px;
 }
+/* makes the navigation aligned to right */
 .nav_yakine-right {
     float: right;
 }
+/* makes the navigation aligned to left */
 .nav_yakine-left {
     margin: 0;
 }
@@ -33,7 +35,16 @@ body {
     border: 1px solid transparent;
     background-color: #fff;
     padding: 10px;
+    transition: 100ms all linear;
+    color: #4F4F4F;
 }
+/* hover effect */
+.nav_item:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: #464646;
+}
+/* navigation items ordering classes */
 .item-first {
     order: 1;
 }
@@ -42,4 +53,20 @@ body {
 }
 .item-third {
     order: 3;
+}
+/* makes your navigation vertical */
+.nav-vertical {
+    flex-direction: column;
+}
+/* making the navigation responsive for various screen sizes */
+@media(max-width: 425px) {
+    .nav_item {
+        font-size: 25px;
+        border-right: 1px solid #4F4F4F;
+        border-left: 1px solid #4F4F4F;
+    }
+    .item-vertical {
+        border-top: 1px solid #4F4F4F;
+        border-bottom: 1px solid #4F4F4F;
+    }
 }
