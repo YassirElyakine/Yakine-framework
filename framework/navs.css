@@ -62,11 +62,11 @@ body {
 @media(max-width: 425px) {
     .nav_item {
         font-size: 25px;
-        border-right: 1px solid #4F4F4F;
-        border-left: 1px solid #4F4F4F;
+        border-right: 1px solid #F5F5F5;
+        border-left: 1px solid #F5F5F5;
     }
-    .item-vertical {
-        border-top: 1px solid #4F4F4F;
-        border-bottom: 1px solid #4F4F4F;
+    .nav-vertical .nav_item {
+        border-top: 1px solid #F5F5F5;
+        border-bottom: 1px solid #F5F5F5;
     }
 }
