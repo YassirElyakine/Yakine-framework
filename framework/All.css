@@ -103,3 +103,19 @@ body {
         border-bottom: 1px solid #F5F5F5;
     }
 }
+/* images containers and with blur features as well */
+.image_container {
+    border: 1px solid transparent;
+    padding: 5px;
+}
+.image {
+    border: 1px solid #fff;
+    height: 505px;
+    background-image: url('animage.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.img-blur {
+    height: 100%;
+    opacity: 0.50;
+}
