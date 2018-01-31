@@ -1,4 +1,12 @@
 /* this framework is under development and it actually isn't meant to be used by other developers because it may not be stable yet */
+/* sets the default framework font 'Raleway' */
+@font-face {
+    font-family: Yakine-framework-Raleway;
+    src: url('framework fonts/Raleway-ExtraBold.ttf');
+}
+* {
+    font-family: Yakine-framework-Raleway;
+}
 /* background-colors */
 .bg-blue {
     background-color: #0281CA;
