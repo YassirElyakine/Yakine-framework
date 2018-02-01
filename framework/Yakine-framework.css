@@ -1,11 +1,20 @@
 /* this framework is under development and it actually isn't meant to be used by other developers because it may not be stable yet */
 /* sets the default framework font 'Raleway' */
 @font-face {
+    /* the default font */
     font-family: Yakine-framework-Raleway;
-    src: url('framework fonts/Raleway-ExtraBold.ttf');
+    src: url('framework fonts/Raleway-SemiBold.ttf');
+}
+@font-face {
+    /* the thin version of Raleway */
+    font-family: Yakine-framework-Raleway-thin;
+    src: url('framework fonts/Raleway-Thin.ttf');
 }
 * {
     font-family: Yakine-framework-Raleway;
+}
+.font-thin {
+    font-family: Yakine-framework-Raleway-thin;
 }
 /* background-colors */
 .bg-blue {
